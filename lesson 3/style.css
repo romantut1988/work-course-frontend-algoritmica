@@ -1,0 +1,32 @@
+/*
+1. Презентация. Язык CSS.
+ (Cascading Style Sheets, каскадные таблицы стилей) — набор правил, которые описывают то, как выглядят элементы на странице.
+ */
+
+
+/* 2. Упражнение 1. Стилизация текста. !!!Решение CSS */
+
+
+/* 3. Упражнение 2. Стилизация текста. !!!Решение CSS */
+
+
+/* 4. Задача. Вёрстка CSS. !!!Решение CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: Montserrat, Helvetica, sans-serif;
+}
+h1 {
+    font-weight: 100;
+    color: darkblue;
+    font-size: 26px;
+}
+p {
+    color: darkslategray;
+}
+h2 {
+    color: mediumblue;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: underline;
+}
