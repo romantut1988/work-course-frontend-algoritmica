@@ -31,34 +31,33 @@ li:hover {
     color: yellow
 }
 
+
+
 /* 4. Задача 1. Вёрстка по макету . !!!Решение CSS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap');
+body {
+   font-family: Montserrat, Helvetica, sans-serif; 
+}
 .title {
-  font-weight: bold;
-  background-color: yellow;
-  color: #30545d;
+   font-weight: 900;
+   font-size: 32px;
+   background-color: yellow;
+   color: darkslategray;
 }
-.link {
-  color: #30545d;
+.lead {
+   font-size: 16px;
+   font-style: italic;
+   color: darkslategray;
 }
-.italik, text {
-  font-style: italic;
+.macs {
+   font-weight: 600;
 }
-.text {
-  font-size: 18px;  
+.desktops {
+   font-weight: 400;
 }
-p {
-    color: gray;
-}
-li {
-  font-size: 18px;
-  color: gray;
-}
-.head li {
-font-style: italic;
-}
-h2 {
- color: #30545d;
-font-weight: bold;
+.portables {
+   font-style: italic;
+   font-weight: 400;
 }
 
 
