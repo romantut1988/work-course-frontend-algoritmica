@@ -15,8 +15,6 @@
   font-size: 11px;
 }
 
-
-
 /* 3. Упражнение 2. Использование псевдоклассов. !!!Решение CSS */
 li:first-child {
   color: blue;
@@ -30,8 +28,6 @@ li:last-child {
 li:hover {
   color: yellow;
 }
-
-
 
 /* 4. Задача 1. Вёрстка по макету . !!!Решение CSS */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap");
@@ -63,3 +59,56 @@ body {
 
 
 /* 5. Задача 2. Список основных цветов. !!!Решение CSS */
+li {
+  list-style-position: inside;
+  color: #fff;
+}
+li:first-child {
+  background-color: #000000;
+}
+li:nth-child(2) {
+  background-color: #c0c0c0;
+}
+li:nth-child(3) {
+  background-color: #808080;
+}
+li:nth-child(4) {
+  color: #000000;
+  background-color: #ffffff;
+}
+li:nth-child(5) {
+  background-color: #800000;
+}
+li:nth-child(6) {
+  background-color: #ff0000;
+}
+li:nth-child(7) {
+  background-color: #800080;
+}
+li:nth-child(8) {
+  background-color: #ff00ff;
+}
+li:nth-child(9) {
+  background-color: #008000;
+}
+li:nth-child(10) {
+  background-color: #00ff00;
+}
+li:nth-child(11) {
+  background-color: #808000;
+}
+li:nth-child(12) {
+  background-color: #ffff00;
+}
+li:nth-child(13) {
+  background-color: #000080;
+}
+li:nth-child(14) {
+  background-color: #0000ff;
+}
+li:nth-child(15) {
+  background-color: #008080;
+}
+li:last-child {
+  background-color: #00ffff;
+}
