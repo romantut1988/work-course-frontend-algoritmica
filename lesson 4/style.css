@@ -1,26 +1,66 @@
 /* 1. Презентация. Продвинутые селекторы. */
-.title {
-    font-size: 26px;
-    color: blue;
-  }
-  .main-info {
-    color: darkgrey;
-  }
-  .additional-info {
-    font-style: italic;
-  }
-  .date {
-    font-size: 11px;
-  }
 
 
 /* 2. Упражнение 1. Использование классов. !!!Решение CSS */
+.title {
+  font-size: 26px;
+  color: blue;
+}
+.main-info {
+  color: darkgrey;
+}
+.additional-info {
+  font-style: italic;
+}
+.date {
+  font-size: 11px;
+}
 
 
 /* 3. Упражнение 2. Использование псевдоклассов. !!!Решение CSS */
-
+li:first-child {
+  color: blue;
+}
+li:nth-child(2) {
+    color: orange;
+}
+li:last-child {
+    color: red;
+}
+li:hover {
+    color: yellow
+}
 
 /* 4. Задача 1. Вёрстка по макету . !!!Решение CSS */
+.title {
+  font-weight: bold;
+  background-color: yellow;
+  color: #30545d;
+}
+.link {
+  color: #30545d;
+}
+.italik, text {
+  font-style: italic;
+}
+.text {
+  font-size: 18px;  
+}
+p {
+    color: gray;
+}
+li {
+  font-size: 18px;
+  color: gray;
+}
+.head li {
+font-style: italic;
+}
+h2 {
+ color: #30545d;
+font-weight: bold;
+}
+
 
 
 /* 5. Задача 2. Список основных цветов. !!!Решение CSS */
