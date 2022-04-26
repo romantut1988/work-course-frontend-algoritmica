@@ -1,6 +1,5 @@
 /* 1. Презентация. Продвинутые селекторы. */
 
-
 /* 2. Упражнение 1. Использование классов. !!!Решение CSS */
 .title {
   font-size: 26px;
@@ -17,47 +16,48 @@
 }
 
 
+
 /* 3. Упражнение 2. Использование псевдоклассов. !!!Решение CSS */
 li:first-child {
   color: blue;
 }
 li:nth-child(2) {
-    color: orange;
+  color: orange;
 }
 li:last-child {
-    color: red;
+  color: red;
 }
 li:hover {
-    color: yellow
+  color: yellow;
 }
 
 
 
 /* 4. Задача 1. Вёрстка по макету . !!!Решение CSS */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap");
 body {
-   font-family: Montserrat, Helvetica, sans-serif; 
+  font-family: Montserrat, Helvetica, sans-serif;
 }
 .title {
-   font-weight: 900;
-   font-size: 32px;
-   background-color: yellow;
-   color: darkslategray;
+  font-weight: 900;
+  font-size: 32px;
+  background-color: yellow;
+  color: darkslategray;
 }
 .lead {
-   font-size: 16px;
-   font-style: italic;
-   color: darkslategray;
+  font-size: 16px;
+  font-style: italic;
+  color: darkslategray;
 }
 .macs {
-   font-weight: 600;
+  font-weight: 600;
 }
 .desktops {
-   font-weight: 400;
+  font-weight: 400;
 }
 .portables {
-   font-style: italic;
-   font-weight: 400;
+  font-style: italic;
+  font-weight: 400;
 }
 
 
