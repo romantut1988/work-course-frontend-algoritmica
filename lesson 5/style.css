@@ -1,1 +1,41 @@
 /* 1. Стили. CSS */
+body {
+  font-family: Montserrat, Helvetica, sans-serif;
+}
+h1 {
+  font-weight: 900;
+}
+table {
+  border-collapse: collapse;
+  width: 720px;
+  border-radius: 5px;
+  background-color: #f0fff8;
+}
+tr {
+  border-collapse: collapse;
+}
+td {
+  padding: 10px;
+  border: 1px solid #80ced6;
+}
+p {
+  box-sizing: border-box;
+  background-color: #f0fff8;
+  width: 720px;
+  padding: 30px;
+  border: 1px solid #80ced6;
+  border-radius: 10px;
+  margin-right: 0px;
+}
+h3 {
+  font-weight: 900;
+}
+ul {
+  box-sizing: border-box;
+  padding: 30px;
+  border-radius: 10px;
+  list-style-type: square;
+  border: 1px solid #80ced6;
+  background-color: #f0fff8;
+  width: 720px;
+}
