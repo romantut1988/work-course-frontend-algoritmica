@@ -1,5 +1,51 @@
 /* 1. Презентация. Работа с блочными элементами */
 
+
 /* 2. Диаграмма */
+body {
+  font-size: 11px;
+  padding: 10px;
+}
+h1 {
+  font-size: 23px;
+}
+.chard {
+  width: 500px;
+}
+.top {
+  height: 50px;
+  margin: 0 0 5px;
+  padding: 18px;
+  color: #fff;
+  box-sizing: border-box;
+}
+span {
+  font-weight: bold;
+}
+.iphone-xr {
+  width: 463px;
+  background-color: red;
+}
+.iphone-11 {
+  width: 373px;
+  background-color: lightblue;
+  color: #000;
+}
+.samsung-a10 {
+  width: 303px;
+  background-color: bisque;
+  color: #000;
+}
+.samsung-a50 {
+  width: 242px;
+  background-color: cyan;
+  color: #000;
+}
+.samsung-a20 {
+  width: 192px;
+  background-color: black;
+  color: #fff;
+}
+
 
 /* 3. Карточка товара в интернет-магазине */
