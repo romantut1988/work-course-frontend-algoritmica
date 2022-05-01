@@ -2,11 +2,17 @@
 
 
 /* 2. Упражнение 1. Верстка контейнера. */
+.goods {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
 .goods-item {
-  font-family: sans-serif;
-  background-color: #ba99e4;
-  padding: 50px;
-  border-radius: 3px;
+font-family: sans-serif;
+background-color: #ba99e4;
+padding: 50px;
+border-radius: 3px;
+list-style-type: none;
 }
 
 
