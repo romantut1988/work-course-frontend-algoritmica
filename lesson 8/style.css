@@ -8,12 +8,66 @@
   gap: 10px;
 }
 .goods-item {
-font-family: sans-serif;
-background-color: #ba99e4;
-padding: 50px;
-border-radius: 3px;
-list-style-type: none;
+  font-family: sans-serif;
+  background-color: #ba99e4;
+  padding: 50px;
+  border-radius: 3px;
+  list-style-type: none;
 }
 
 
 /* 3. Вёрстка статьи. */
+body {
+  font-family: Roboto, monospace;
+}
+main {
+  display: flex;
+}
+article {
+  width: 60%;
+  padding: 20px;
+}
+.date {
+  font-weight: 400;
+  font-size: 10px;
+  margin: 2px 0px 0px 0px;
+}
+p {
+  font-weight: 500;
+}
+h1 {
+  font-size: 36px;
+  margin: 5px 0px 0px 0px;
+}
+.author {
+  margin: 0 0 0 0;
+  font-weight: 400;
+  font-size: 12px;
+  background-color: azure;
+}
+aside {
+  width: 40%;
+}
+.aditional {
+  background-color: #eee;
+  color: #333;
+  padding: 20px;
+  font-size: 12px;
+  margin: 15px 0px 0px 0px;
+}
+h4 {
+  margin: 0px 0px 10px 0px;
+}
+a {
+  color: #833ae0;
+  font-weight: 600;
+  display: block;
+  margin: 10px 0px 0px 0px;
+}
+th {
+  text-align: start;
+}
+td {
+  width: 150px;
+  height: 25px;
+}
