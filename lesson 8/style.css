@@ -22,6 +22,8 @@ body {
 }
 main {
   display: flex;
+  min-width: 700px;
+  max-width: 980px;
 }
 article {
   width: 60%;
