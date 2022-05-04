@@ -24,4 +24,35 @@
 
 
 /* 3. Вёрстка шапки сайта и статьи. */
-
+header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 780px;
+  margin: auto;
+}
+header div {
+  display: flex;
+}
+img {
+  height: 50px;
+}
+.menu {
+  padding: 0px;
+}
+.menu li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0px 25px 0px 25px;
+  text-align: center;
+}
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  background-color: #833ae0;
+  color: white;
+  border-radius: 50%;
+}
