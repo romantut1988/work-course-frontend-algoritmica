@@ -24,6 +24,9 @@
 
 
 /* 3. Вёрстка шапки сайта и статьи. */
+body {
+  font-family: Roboto, Monospace;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -42,17 +45,55 @@ img {
 .menu li {
   display: inline-block;
   list-style-type: none;
-  padding: 0px 25px 0px 25px;
+  padding: 0px 25px;
   text-align: center;
 }
+.menu li:hover {
+  cursor: default;
+  color: blue;
+  position: relative;
+  left: 5px;
+  bottom: 5px;
+}
 .avatar {
+  width: 40px;
+  min-width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #833ae0;
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
-  min-width: 40px;
-  background-color: #833ae0;
   color: white;
-  border-radius: 50%;
+}
+main {
+  display: flex;
+  margin: auto;
+  max-width: 780px;
+}
+article {
+  width: 80%;
+}
+.author {
+  margin: 0px;
+  padding: 5px;
+  background-color: Lavender;
+  font-weight: 400;
+  font-size: 12px;
+  width: 200px;
+}
+aside {
+  width: 20%;
+  background-color: Lavender;
+  padding: 20px;
+}
+aside p {
+  margin: 0px;
+}
+aside ul {
+  padding: 0px;
+}
+aside li {
+  list-style-type: none;
 }
