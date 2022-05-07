@@ -1,7 +1,25 @@
 /* 1. Презентация. Настройка окружения для вёрстки. */
 
-
-
 /* 2. Вёрстка страницы в VS Code. */
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 44px;
+}
+
+.date {
+  font-size: 12px;
+  font-weight: 600;
+  margin: 10px 0px 0px 0px;
+}
+
+.text {
+  font-size: 16px;
+  position: relative;
+  margin: 0px 0px 20px 0px;
+}
 
 /* 3. Вёрстка страницы в VS Code */
