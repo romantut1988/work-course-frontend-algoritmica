@@ -2,7 +2,7 @@
 
 /* 2. Вёрстка страницы в VS Code. */
 
-body {
+/* body {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -10,7 +10,7 @@ h1 {
   font-size: 44px;
 }
 
-.date {
+ .date {
   font-size: 12px;
   font-weight: 600;
   margin: 10px 0px 0px 0px;
@@ -26,7 +26,15 @@ h1 {
 
 .text:last-child {
   border-bottom: none;
-}
+} 
 
 
 /* 3. Вёрстка страницы в VS Code */
+.container {
+ display: flex;
+}
+img {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+}
