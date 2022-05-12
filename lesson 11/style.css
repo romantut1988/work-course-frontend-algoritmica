@@ -1,6 +1,20 @@
 /* 1. Презентация. Адаптивная вёрстка. */
 
 /* 2. Упражнение 1. Блок из двух колонок.  */
+.wrapper {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.left {
+    width: 22%;
+    height: 40%;
+    margin-right: 10px;
+}
+.right {
+    width: 75%;
+    height: 300px;
+}
 
 /* 3. Упражнение 2. Три карточки. */
 
