@@ -2,22 +2,61 @@
 
 /* 2. Упражнение 1. Блок из двух колонок.  */
 .wrapper {
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
 }
 .left {
-    width: 22%;
-    height: 40%;
-    margin-right: 10px;
-    background-color: red;
+  width: 22%;
+  height: 40%;
+  margin-right: 10px;
+  background-color: red;
 }
 .right {
-    background-color: red;
-    width: 75%;
-    height: 500px;
+  background-color: red;
+  width: 75%;
+  height: 500px;
 }
 
 /* 3. Упражнение 2. Три карточки. */
+
+.wrapper {
+  display: flex;
+  width: 960px;
+}
+.one {
+  margin-right: 10px;
+  width: 33%;
+  background-color: chocolate;
+  border: 2px solid;
+}
+.two {
+  margin-right: 10px;
+  width: 33%;
+  background-color: chocolate;
+  border: 2px solid;
+}
+.three {
+  width: 33%;
+  background-color: chocolate;
+  border: 2px solid;
+}
+
+@media (max-width: 960px) {
+  .wrapper {
+    display: block;
+  }
+  .one {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  .two {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  .three {
+    width: 90%;
+  }
+}
 
 /* 4. Адаптивная вёрстка сайта. */
