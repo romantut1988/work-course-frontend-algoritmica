@@ -36,4 +36,8 @@ console.log(num ** 5 % 3);
 
 // 7. Задача. Перевод в систему единиц. 
 
+const kmhSpeed = 75;
+const msSpeed = (75 * 1000) / 3600;
+console.log(msSpeed);
+
 // 8. Количество дней.  
