@@ -2,6 +2,11 @@
 
 // 2. Упражнение. Функция logGreeting().
 
+function logGreeting() {
+    console.log("Roman is a JS developer");
+}
+logGreeting();
+
 // 3.  Упражнение. Функция с параметром.
 
 // 4. Упражнение. Функция для определения наибольшего.
