@@ -49,3 +49,48 @@ span {
 
 
 /* 3. Карточка товара в интернет-магазине */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap');
+body {
+    font-family: "Lato", sans-serif;
+    padding: 10px;
+}
+.card {
+    border: 1px solid  #999999;
+    width: 400px;
+    padding: 20px;
+    border-radius: 3px;
+}
+image {
+    width: 400px;
+    margin-bottom: 10px;
+}
+h2 {
+    margin: 0;
+}
+p {
+    margin: 0 0 10px 0;
+}
+.price {
+    color: #B12704;
+    margin-bottom: 20px;
+}
+ul {
+    padding: 20px;
+    background-color: #ebebeb;
+    list-style: none;
+    margin-bottom: 15px;
+}
+button {
+    color: #853ae0;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+    cursor: pointer;
+    padding: 10px 10px 10px 0;
+}
+a {
+    display: block;
+    font-size: 12px;
+    font-style: italic;
+}
