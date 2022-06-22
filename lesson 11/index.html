@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lesson 11</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -17,7 +17,7 @@
 
 
     <!-- 2. Упражнение 1. Блок из двух колонок.  -->
-    <div class="wrapper">
+    <!-- <div class="container">
         <div class="left">
             <h2>Minimize code duplication</h2>
             <p>
@@ -32,15 +32,10 @@
             <p>
                 The common practice is testing a website in multiple resolutions and adding more and more media queries
                 to fix the issues that arise. However, every media query adds overhead to future CSS changes, and they
-                should not be added lightly. Here are a few more tips to avoid needless media queries:
-            <ul>
-                <li>Use percentagesor viewport-relative units instead of fixed widths.</li>
-                <li>When you want a fixed width for larger resolutions,use max-width, not width.</li>
-                <li>When using multi-column text, specify column-width instead of column-count,so that you get one
-                    column only in small resolutions.</li>
-            </ul>
-
-
+                should not be added lightly. Here are a few more tips to avoid needless media queries: Use percentages
+                or viewport-relative units instead of fixed widths. When you want a fixed width for larger resolutions,
+                use max-width, not width. When using multi-column text, specify column-width instead of column-count, so
+                that you get one column only in small resolutions.
             </p>
         </div>
     </div>
@@ -48,7 +43,7 @@
 
 
     <!-- 3. Упражнение 2. Три карточки. -->
-    <div class="wrapper">
+    <!-- <div class="block">
         <div class="one">
             <h2>Minimize code duplication</h2>
             <p>
@@ -78,33 +73,36 @@
                 unless we intentionally want to use cascaded properties for everything else.
             </p>
         </div>
-    </div>
+    </div>  -->
 
 
     <!-- 4. Адаптивная вёрстка сайта.  -->
-    <body>
+    <main>
+        <section class="item">
+            <img class="item-image" src="https://learn.algoritmika.org/uploads/2020/06/laptop-2557466_1280_0_1592131562.jpg" alt="Images">
+            <h2>HTML</h2>
+            <p>The language for building web pages.</p>
+            <button>Learn HTML<button>
+        </section>
 
-        <h2>HTML</h2>
-        <p>The language for building web pages.</p>
-    
-        <button>Learn HTML<button>
-    
-        <h2>CSS</h2>
-        <p>The language for styling web pages.</p>
-       
-        <button>Learn CSS<button>
-    
-        JavaScript
-        The language for programming web pages
-    
-        Learn JavaScript
-    
+        <section class="item">
+            <img class="item-image" src="https://learn.algoritmika.org/uploads/2020/06/business-1839876_1280_0_1592131562.jpg" alt="Images">
+            <h2>CSS</h2>
+            <p>The language for styling web pages.</p>
+            <button>Learn CSS<button>
+        </section>
+
+        <section class="item">
+            <img class="item-image" src="https://learn.algoritmika.org/uploads/2020/06/web-design-2906159_1280_0_1592131562.jpg" alt="Images">
+            <h2>JavaScript</h2>
+            <p>The language for programming web pages</p>
+        </section>
+    </main>
+    <footer>
         <p>2017-2020</p>
         <p>If you have any questions or suggestions, please contact us hello@algoritmika.org
-        or call at +7 (495) 256-30-41</p>
-        
-    </body>
-
+            or call at +7 (495) 256-30-41</p>
+    </footer>
 
 </body>
 
