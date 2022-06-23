@@ -3,10 +3,9 @@
 /* 2. Упражнение 1. Блок из двух колонок.  */
 body {
   box-sizing: border-box;
-
-  /* border: 3px solid red; */
+  border: 3px solid red;
 }
-/* .container {
+.container {
   padding: 10px;
   display: flex;
   width: 80%;
@@ -28,10 +27,9 @@ body {
   height: calc(100% - 300px);
   background-color: burlywood;
   padding: 15px;
-} */
+} 
 
 /* 3. Упражнение 2. Три карточки. */
-/* 
 .block {
   display: flex;
   width: 960px;
@@ -69,14 +67,14 @@ body {
   .three {
     width: 90%;
   }
-} */
+} 
 
 /* 4. Адаптивная вёрстка сайта. */
 .container {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-} 
+}
 main {
   display: flex;
   align-items: center;
@@ -150,6 +148,9 @@ footer {
   .item {
     width: 100%;
     text-align: center;
+  }
+  footer {
+    position: sticky;
   }
   button {
     width: 250px;
