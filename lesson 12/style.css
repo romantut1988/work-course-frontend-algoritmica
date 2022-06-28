@@ -1,3 +1,186 @@
 /* 1. Презентация. Практикум Адаптивная вёрстка. */
 
 /* 2. Задание. Адаптивная вёрстка. */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #1f1e1e;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 90px 125px 175px 125px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 55px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+.description__block {
+  margin-right: 165px;
+}
+
+.description__text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 45px;
+}
+
+.description__text:last-child {
+  margin-bottom: 0px;
+}
+
+.description__img {
+  width: 366px;
+  height: 344px;
+}
+
+.information {
+  display: flex;
+  align-items: center;
+}
+
+.information__img {
+  margin-right: 130px;
+}
+
+.information__activity-statistics {
+  margin-right: 95px;
+  display: flex;
+  flex-direction: column;
+}
+
+.information__activity-statistics:last-child {
+  margin-right: 0px;
+}
+
+.information__text {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 32px;
+  margin: 0 0 15px 0;
+}
+
+.information__span {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+@media (max-width: 834px) {
+  .container {
+    padding: 55px 85px 175px 75px;
+  }
+  .title {
+    margin-bottom: 10px;
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .description__img {
+    width: 210px;
+    height: 190px;
+  }
+
+  .description {
+    margin-bottom: 70px;
+  }
+
+  .description__block {
+    margin-right: 110px;
+  }
+
+  .description__text {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 25px;
+  }
+
+  .information__img {
+    display: none;
+  }
+
+  .information__text {
+    font-size: 15px;
+    line-height: 19px;
+    margin: 0 0 5px 0;
+  }
+  .information__span {
+    font-size: 11px;
+    line-height: 14px;
+  }
+
+  .information__activity-statistics {
+    margin-right: 40px;
+  }
+
+  @media (max-width: 375px) {
+    .container {
+      padding: 55px 30px 125px 35px;
+    }
+    .title {
+      margin-bottom: 10px;
+      font-size: 26px;
+      line-height: 26px;
+    }
+    .description {
+      display: block;
+      margin-bottom: 15px;
+    }
+
+    .description__img {
+      width: 170px;
+      height: 160px;
+    }
+    .description__block {
+      margin-right: 0px;
+      margin-bottom: 15px;
+    }
+    .description__text {
+      font-size: 12px;
+      line-height: 18px;
+      margin-bottom: 20px;
+    }
+    .information {
+        display: flex;
+        flex-wrap: wrap;
+      }
+    .information__text {
+      font-size: 12px;
+      line-height: 15px;
+      margin: 0 0 5px 0;
+    }
+    .information__span {
+      font-size: 10px;
+      line-height: 13px;
+    }
+
+    .information__activity-statistics {
+      margin-right: 35px;
+    
+    }
+    .information__activity-statistics:last-child {
+      margin-top: 30px;
+    }
+  }
+}
