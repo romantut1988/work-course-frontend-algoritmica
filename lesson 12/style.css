@@ -13,9 +13,9 @@ body {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1280px;
   margin: 0 auto;
-  padding: 90px 125px 175px 125px;
+  padding: 0 10px;
 }
 
 .title {
@@ -86,7 +86,7 @@ body {
 
 @media (max-width: 834px) {
   .container {
-    padding: 55px 85px 175px 75px;
+    padding: 0 10px;
   }
   .title {
     margin-bottom: 10px;
@@ -132,7 +132,7 @@ body {
 
   @media (max-width: 375px) {
     .container {
-      padding: 55px 30px 125px 35px;
+      padding: 0 10px;
     }
     .title {
       margin-bottom: 10px;
@@ -173,7 +173,7 @@ body {
     }
 
     .information__activity-statistics {
-      margin-right: 35px;
+      margin-right: 57px;
     
     }
     .information__activity-statistics:last-child {
