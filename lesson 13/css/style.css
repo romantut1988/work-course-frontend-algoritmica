@@ -143,6 +143,7 @@ body {
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
+  max-width: 290px;
 }
 
 
@@ -274,6 +275,7 @@ body {
   .learn__list-item {
     font-size: 14px;
     line-height: 21px;
+    max-width: 383px;
   }
   .well {
     padding-bottom: 107px;
@@ -388,6 +390,7 @@ body {
   .learn__list-item {
     font-size: 24px;
     line-height: 36px;
+    max-width: 662px;
   }
   .well {
     padding-bottom: 185px;
