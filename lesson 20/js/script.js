@@ -18,6 +18,27 @@ showMessage('Valera');
 showMessage('Victoria');
 
 // 4. Упражнение. Функция для определения наибольшего.
+function numberMax(a, b, c) {
+    max = a, b, c;
+
+    if (a > max) {
+        max = a;
+    }
+    if (b > max) {
+        max = b;
+    }
+    if (c > max) {
+        max = c;
+    }
+
+    return max;
+}
+
+const a = 2;
+const b = 300;
+const c = 2222;
+
+console.log(numberMax(a, b, c));
 
 // 5. Упражнение. Наименьшее число.
 function min(a, b) {
