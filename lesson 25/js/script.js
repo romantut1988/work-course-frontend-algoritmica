@@ -1,7 +1,12 @@
 // 1. Презентация. Обработка событий. 
 
 // 2. Упражнение 1. Добавление обработчика событий.
-
+const buttons = document.querySelectorAll('.action');
+buttons.forEach(button => {
+    button.addEventListener('click', function () {
+        button.style.color = 'red';
+    })
+})
 // 3. Упражнение 2. Удаление обработчика событий.
 
 // 4. Упражнение 3. Добавление событий клавиатуры.
