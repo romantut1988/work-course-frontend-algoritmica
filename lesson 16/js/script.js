@@ -30,6 +30,9 @@ console.log(num[5]);
 // 8. Программу для вывода суммы цифр.
 
 // 9. Изменение порядка.
+let valueName = prompt('Привет, введи своё полное имя?');
+let valueSurname = prompt('Привет, введи свою фамилию?');
+console.log(`${valueSurname} ${valueName}`);
 
 // 10. Бонус. Имя из введённой строки.
 
