@@ -19,9 +19,21 @@ console.log(fullName.length - 1);
 
 // 5. Упражнение. Ввод имени.
 let value = prompt('Привет, введи своё имя?');
-console.log(`Привет ${value}`);
+console.log(`"Привет, ${value}!".`);
+
+console.log('"Привет, ' + value + '!".')
 
 // 6. Упражнение. Операции над числами.
+let numberOne = prompt('Введите первое число:');
+let numberTwo = prompt('Введите второе число:');
+let plus = +numberOne + Number(numberTwo);
+let minus = numberOne - numberTwo;
+let division = numberOne / numberTwo;
+let multiplication = numberOne * numberTwo;
+console.log('Сложение: ' + plus);
+console.log('Вычитание: ' + minus);
+console.log('Деление: ' + division);
+console.log('Умножение: ' + multiplication);
 
 // 7. Упражнение. Операции над числами 2.
 const num = String(12345 * 98765);
