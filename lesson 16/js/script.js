@@ -37,12 +37,12 @@ console.log('Умножение: ' + multiplication);
 
 // 7. Упражнение. Операции над числами 2.
 const num = String(12345 * 98765);
-console.log(+num[9]); 
+console.log(+num[6]); 
 
 // 8. Программу для вывода суммы цифр.
-let numbers = prompt('Введите четырехзначное число')
-let text = 'Сумма цифр числа равна';
-console.log(text + ' ' + numbers);
+let number = prompt('Введите четырехзначное число:');
+let calculation = Number(number[0]) + Number(number[1]) + Number(number[2]) + Number(number[3]);
+console.log('Сумма цифр числа равна: '+ calculation );
 
 // 9. Изменение порядка.
 let valueName = prompt('Привет, введи своё полное имя?');

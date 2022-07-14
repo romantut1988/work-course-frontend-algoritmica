@@ -8,7 +8,6 @@ console.log(element);
 const element = document.querySelector('h1');
 element.remove("h1");
 
-// let newElement = document.createElement('li');
 const li = document.querySelector("li")
 li.append('TITAN RTX')
 
