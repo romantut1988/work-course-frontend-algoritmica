@@ -70,7 +70,7 @@ let month = prompt("Введите номер месяца");
 if (month === '1') {
     let p = document.createElement('p');
     p.className = "text";
-    p.innerHTML = "1 - Январь";
+    p.innerHTML = "месяц - январь";
     document.body.append(p);
 
     console.log('Январь');
@@ -78,7 +78,7 @@ if (month === '1') {
 else if (month === '2') {
     let p = document.createElement('p');
     p.className = "text";
-    p.innerHTML = "2 - Февраль";
+    p.innerHTML = "месяц  - февраль";
     document.body.append(p);
 
     console.log('Февраль');
@@ -86,7 +86,7 @@ else if (month === '2') {
 else if (month === '3') {
     let p = document.createElement('p');
     p.className = "text";
-    p.innerHTML = "3 - Март";
+    p.innerHTML = "месяц  - март";
     document.body.append(p);
 
     console.log('Март');
@@ -94,7 +94,7 @@ else if (month === '3') {
 else if (month === '4') {
     let p = document.createElement('p');
     p.className = "text";
-    p.innerHTML = "4 - Апрель";
+    p.innerHTML = "месяц  - апрель";
     document.body.append(p);
 
     console.log('Апрель');
@@ -102,56 +102,56 @@ else if (month === '4') {
 else if (month === '5') {
     let p = document.createElement('p');
     p.className = "text";
-    p.innerHTML = "5 - Май";
+    p.innerHTML = "месяц  - май";
     document.body.append(p);
     console.log('Май');
 }
 else if (month === '6') {
     let p = document.createElement('p');
     p.className = "text";
-    p.innerHTML = "6 - Июнь";
+    p.innerHTML = "месяц  - июнь";
     document.body.append(p);
     console.log('Июнь');
 }
 else if (month === '7') {
     let p = document.createElement('p');
     p.className = "text";
-    p.innerHTML = "7 - Июль";
+    p.innerHTML = "месяц  - июль";
     document.body.append(p);
     console.log('Июль');
 }
 else if (month === '8') {
     let p = document.createElement('p');
     p.className = "text";
-    p.innerHTML = "8 - Август";
+    p.innerHTML = "месяц  - август";
     document.body.append(p);
     console.log('Август');
 }
 else if (month === '9') {
     let p = document.createElement('p');
     p.className = "text";
-    p.innerHTML = "9 - Сентябрь";
+    p.innerHTML = "месяц  - сентябрь";
     document.body.append(p);
     console.log('Сентябрь');
 }
 else if (month === '10') {
     let p = document.createElement('p');
     p.className = "text";
-    p.innerHTML = "10 - Октябрь";
+    p.innerHTML = "месяц  - октябрь";
     document.body.append(p);
     console.log('Октябрь');
 }
 else if (month === '11') {
     let p = document.createElement('p');
     p.className = "text";
-    p.innerHTML = "11 - Ноябрь";
+    p.innerHTML = "месяц  - ноябрь";
     document.body.append(p);
     console.log('Ноябрь');
 }
 else if (month === '12') {
     let p = document.createElement('p');
     p.className = "text";
-    p.innerHTML = "12 - Декабрь";
+    p.innerHTML = "месяц  - декабрь";
     document.body.append(p);
     console.log('Декабрь');
 }
