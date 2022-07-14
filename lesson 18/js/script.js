@@ -66,5 +66,97 @@ switch (id) {
 // 6. Задача 1. Найти среднее число.
 
 // 7. Задача. Вывод месяца.
+let month = prompt("Введите номер месяца");
+if (month === '1') {
+    let p = document.createElement('p');
+    p.className = "text";
+    p.innerHTML = "1 - Январь";
+    document.body.append(p);
+
+    console.log('Январь');
+}
+else if (month === '2') {
+    let p = document.createElement('p');
+    p.className = "text";
+    p.innerHTML = "2 - Февраль";
+    document.body.append(p);
+
+    console.log('Февраль');
+}
+else if (month === '3') {
+    let p = document.createElement('p');
+    p.className = "text";
+    p.innerHTML = "3 - Март";
+    document.body.append(p);
+
+    console.log('Март');
+}
+else if (month === '4') {
+    let p = document.createElement('p');
+    p.className = "text";
+    p.innerHTML = "4 - Апрель";
+    document.body.append(p);
+
+    console.log('Апрель');
+}
+else if (month === '5') {
+    let p = document.createElement('p');
+    p.className = "text";
+    p.innerHTML = "5 - Май";
+    document.body.append(p);
+    console.log('Май');
+}
+else if (month === '6') {
+    let p = document.createElement('p');
+    p.className = "text";
+    p.innerHTML = "6 - Июнь";
+    document.body.append(p);
+    console.log('Июнь');
+}
+else if (month === '7') {
+    let p = document.createElement('p');
+    p.className = "text";
+    p.innerHTML = "7 - Июль";
+    document.body.append(p);
+    console.log('Июль');
+}
+else if (month === '8') {
+    let p = document.createElement('p');
+    p.className = "text";
+    p.innerHTML = "8 - Август";
+    document.body.append(p);
+    console.log('Август');
+}
+else if (month === '9') {
+    let p = document.createElement('p');
+    p.className = "text";
+    p.innerHTML = "9 - Сентябрь";
+    document.body.append(p);
+    console.log('Сентябрь');
+}
+else if (month === '10') {
+    let p = document.createElement('p');
+    p.className = "text";
+    p.innerHTML = "10 - Октябрь";
+    document.body.append(p);
+    console.log('Октябрь');
+}
+else if (month === '11') {
+    let p = document.createElement('p');
+    p.className = "text";
+    p.innerHTML = "11 - Ноябрь";
+    document.body.append(p);
+    console.log('Ноябрь');
+}
+else if (month === '12') {
+    let p = document.createElement('p');
+    p.className = "text";
+    p.innerHTML = "12 - Декабрь";
+    document.body.append(p);
+    console.log('Декабрь');
+}
+else {
+    console.log('Введено некорректное число');
+}
 
 // 8. Задача 2. Подсчёт количества символов.
