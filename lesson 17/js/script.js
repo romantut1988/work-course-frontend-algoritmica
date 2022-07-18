@@ -18,6 +18,10 @@ element.innerHTML = 'GeForce 20 Series';
 
 const colorElement = document.querySelector('.primary');
 colorElement.style.color = '#ababab';
+;
+
+const colorElment = document.querySelector('.primary:last-child');
+colorElment.style.color = '#ababab';
 
 // 5. Задача. Список учеников
 let list = document.querySelector('ul');// список учеников 
