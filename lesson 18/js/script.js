@@ -62,6 +62,16 @@ switch (id) {
 }
 
 // 5. Упражнение. Пол пользователя.
+let gender = prompt('Введите ваш пол в виде буквы M или F');
+if (gender == 'M') {
+    gender = 'male';
+    console.log(gender);
+} else if (gender == 'F') {
+    gender = 'female'
+    console.log(gender);
+} else {
+    console.log('Выберите пол из предложенных')
+}
 
 // 6. Задача 1. Найти среднее число.
 
