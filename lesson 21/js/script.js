@@ -14,7 +14,7 @@ while (i !== n) {
 }
 
 // 3. Упражнение. I know how to use cycles.
-let num = 15;
+let num = 25;
 let count = 0;
 while (num < 100) {
     count += num;
