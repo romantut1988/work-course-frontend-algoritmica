@@ -83,5 +83,12 @@ if (user_string.indexOf(9) > -1) {
 }
 
 // 7. Содержит ли строка цифры.
+let num = prompt('Enter the number:');
 
+while (num > 0) {
+    num--;
+    console.log(num);
+}
+
+console.log('The cycle is over');
 // 8. Вывести простые числа.
