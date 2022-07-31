@@ -83,12 +83,14 @@ if (user_string.indexOf(9) > -1) {
 }
 
 // 7. Содержит ли строка цифры.
-let num = prompt('Enter the number:');
-
-while (num > 0) {
-    num--;
-    console.log(num);
-}
-
+function circumference(result) {
+    return parseFloat(result);
+  }
+  
+  console.log(circumference(4.567));
+  
+  console.log(circumference('4567abc3543defgh'));
+  
+  console.log(circumference('abcdefgh113422'));
 console.log('The cycle is over');
 // 8. Вывести простые числа.
