@@ -17,9 +17,9 @@ const user = {
     isActive: true,
 }
 
-user.age = 32
-delete user.birthDate;
-console.log(user);
+// user.age = 32
+// delete user.birthDate;
+// console.log(user);
 // 4. Упражнение. Методы объекта.
 
 // 5. Задача 1. Копия товара.
