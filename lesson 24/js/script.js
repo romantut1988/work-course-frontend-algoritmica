@@ -8,12 +8,14 @@ elements.forEach((elements) => {
 
 // 3. Упражнение 2. Изменение классов.
 const activeUl = document.querySelector('ul');
-activeUl.classList.add('item');
+activeUl.classList.add('item');      
 console.log(activeUl);
 
 const activeLi = document.querySelector('li');
-activeLi.classList.add('secondary');
+activeLi.classList.add('secondary');      
 console.log(activeLi);
+
+
 
 // 4. Задача. Назначение стилей.
 
