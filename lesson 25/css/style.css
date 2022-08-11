@@ -3,3 +3,11 @@
     cursor: pointer;
     background: none;
   }
+
+  .shopping-list button {
+    border: none;
+    background: none;
+  }
+  .active {
+    text-decoration: line-through;
+  }
