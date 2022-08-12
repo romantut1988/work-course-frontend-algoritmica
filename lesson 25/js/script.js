@@ -31,6 +31,23 @@ document.addEventListener('keyup', event => {
 });
 
 // 5. Задача 1. Карточка товара с доп. информацией.
-
+let show = document.querySelector('.show');
+let hiddenList = document.querySelectorAll('.hidden');
+let ddd = document.querySelector('.ddd');
+let hide = document.querySelector('.hide');
+function showDetails(event) {
+    hiddenList.forEach((element) => {
+        element.classList.remove('hidden');
+    });
+    this.classList.add('hidden');
+    event.target.removeEventListener('click', showDetails);
+}
+show.addEventListener('click', showDetails);
+function hideDetails(event) {
+    ddd.classList.add('hidden');
+    show.classList.remove('hidden');
+    event.target.removeEventListener('click', hideDetails);
+}
+hide.addEventListener('click', showDetails);
 //  6. Задача 2. Регулятор громкости.
 
