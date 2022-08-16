@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,32 @@
     <title>JavaScript</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-<h1>JavaScript</h1>
+    <h1>JavaScript</h1>
 
     <!-- 1. Презентация. Элементы ввода информации.  -->
 
     <!-- 2. Упражнение 1. Создание формы.  -->
+    <textarea></textarea>
+    <label> Уведомить об ответе
+        <input type="checkbox">
+        <button>Отправить сообщение</button>
+    </label>
 
     <!-- 3. Упражнение 2. Получение значений. -->
-
+    <div class="comment-form">
+        <label class="comment-section">
+            Имя
+            <input class="name-input" type="text">
+        </label>
+        <label class="comment-section">
+            Комментарий
+            <textarea class="comment-input" row="5"></textarea>
+        </label>
+        <button class="comment-send">Отправить комментарий</button>
+    </div>
     <!-- 4. Задача. Конвертер валют. -->
 
 
@@ -24,4 +41,5 @@
     <script src="./js/script.js"></script>
 
 </body>
+
 </html>
