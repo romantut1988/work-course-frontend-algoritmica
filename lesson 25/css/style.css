@@ -25,7 +25,14 @@
   border-radius: 6px;
   padding: 20px;
   width: 500px;
+  height: 200px;
   margin: 0 auto;
+}
+h1 {
+  font-size: 26px;
+}
+p {
+  font-size: 20px;
 }
 
 .show {
@@ -42,4 +49,16 @@
   border: none;
   width: 200px;
   padding: 5px;
+}
+
+.container2 {
+  background-color: bisque;
+  border-radius: 6px;
+  padding: 20px;
+  width: 500px;
+  height: 350px;
+  margin: 0 auto;
+}
+button {
+  cursor: pointer;
 }

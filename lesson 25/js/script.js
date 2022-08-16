@@ -32,22 +32,27 @@ document.addEventListener('keyup', event => {
 
 // 5. Задача 1. Карточка товара с доп. информацией.
 let show = document.querySelector('.show');
-let hiddenList = document.querySelectorAll('.hidden');
-let ddd = document.querySelector('.ddd');
+let hiddenList = document.querySelectorAll('.hidden')
+let ddd = document.querySelector('.wrapper');
 let hide = document.querySelector('.hide');
+let container = document.querySelector('.container')
 function showDetails(event) {
+    container.classList.remove('container')
+    container.classList.add('container2')
     hiddenList.forEach((element) => {
         element.classList.remove('hidden');
     });
-    this.classList.add('hidden');
+    this.classList.add('hidden')
     event.target.removeEventListener('click', showDetails);
 }
-show.addEventListener('click', showDetails);
+show.addEventListener('click', showDetails)
 function hideDetails(event) {
-    ddd.classList.add('hidden');
+    container.classList.remove('container2')
+    container.classList.add('container')
+    ddd.classList.add('hidden')
     show.classList.remove('hidden');
     event.target.removeEventListener('click', hideDetails);
 }
-hide.addEventListener('click', showDetails);
+hide.addEventListener('click', hideDetails)
 //  6. Задача 2. Регулятор громкости.
 
