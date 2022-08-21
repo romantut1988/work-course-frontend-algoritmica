@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,48 @@
     <title>JavaScript</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-<h1>JavaScript</h1>
+    <h1>JavaScript</h1>
 
     <!-- 1. Проект "Калькулятор чаевых". -->
+    <div class='container'>
+        <div class='calculator'>
+            <h1>Калькулятор чаевых</h1>
+            <form>
+                <label>
+                    Сумма по счету
+                    <input type="number" class='amount'>
+                </label>
+                <label>
+                    Качество обслуживания
+                    <select>
+                        <option>Отличное (15%)</option>
+                        <option>Хорошее (10%)</option>
+                        <option>Нормальное (5%)</option>
+                        <option>Плохое (0%)</option>
+                    </select>
+                </label>
+                <label>
+                    Количество человек
+                    <input type="number" class='amount_of_eople'>
+                </label>
+                <button class='count'>Посчитать</button>
+                <button class='reset'>Сбросить</button>
+
+            </form>
+            <p>Чаевые:<span class='tips'>25 ₽</span> <span class='span_text'>(с каждого)</span> </p>
+            <p>Всего:<span class='amount_of_tips'>275 ₽</span> <span class='span_text'>(с каждого)</span></p>
+
+
+        </div>
+    </div>
 
 
 
     <script src="./js/script.js"></script>
 
 </body>
+
 </html>
