@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,49 @@
     <title>JavaScript</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-
-<h1>JavaScript</h1>
-
     <!-- 1. Разработка модульного проекта -->
+    <div id="container">
+        <h1>Калькулятор чаевых</h1>
+        <div id="calculator" class="container-elements">
+            <form>
+                <p>Сумма по счету</p>
+                <input id="billamt" type="number" placeholder="1000">
+                <p>Качество обслуживания</p>
+                <select id="service">
+                    <option value="0">0&#37; &#45; Плохое</option>
+                    <option value="0.15">15&#37; &#45; Отличное</option>
+                    <option value="0.1">10&#37; &#45; Хорошее</option>
+                    <option value="0.05">5&#37; &#45; Нормально</option>
+                </select>
+            </form>
+            <p>Количество человек</p>
+            <input id="peopleamt" type="number" placeholder="Количество">
+            <div class="form__btn">
+                <button type="button" id="calculate">Посчитать</button>
+                <button type="button" id="calculate" class='delete'>Сбросить</button>
+            </div>
+        </div>
 
+        <!--calculator end-->
+        <div id="total">
+            <div class="total__tips">
+                <sup>Чаевые:</sup><span id="tip">0.00</span>
+                <small id="each">(с каждого)</small>
+            </div>
+            <div class="total__tips">
+                <sup>Всего:</sup><span id="tip">0.00</span>
+                <small id="each">(с каждого)</small>
+            </div>
+        </div>
+        <!--total end-->
 
+    </div>
+    <!--container end-->
 
     <script src="./js/script.js"></script>
 
 </body>
+
 </html>
