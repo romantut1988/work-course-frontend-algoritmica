@@ -33,7 +33,7 @@ body {
 }
 
 .container {
-  padding: 0 30px;
+  padding: 0 10px;
 }
 
 .logo {
@@ -146,7 +146,6 @@ body {
   max-width: 290px;
 }
 
-
 .well {
   background: #9dc9c8;
   padding-bottom: 63px;
@@ -195,9 +194,6 @@ body {
 }
 
 @media (min-width: 834px) {
-  .container {
-    padding: 0 100px;
-  }
   .logo {
     padding-top: 22px;
     padding-bottom: 52px;
@@ -295,7 +291,7 @@ body {
     line-height: 46px;
     margin-bottom: 42px;
   }
-  
+
   .well__inner {
     display: flex;
   }
@@ -317,7 +313,6 @@ body {
   .container {
     max-width: 1092px;
     margin: 0 auto;
-    padding: 0;
   }
   .logo {
     padding-bottom: 97px;
@@ -410,7 +405,7 @@ body {
     line-height: 81px;
     margin-bottom: 68px;
   }
-  
+
   .well__inner {
     display: flex;
   }
