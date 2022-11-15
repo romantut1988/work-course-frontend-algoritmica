@@ -18,6 +18,15 @@ console.log(activeLi);
 
 
 // 4. Задача. Назначение стилей.
+const elements = document.querySelectorAll('tr');
+elements.forEach((element) => {
+    if (+element.lastChild.innerText > 0) {
+        element.lastChild.classList.add('increase');
+    }
+    else {
+        element.lastChild.classList.add('decrease');
+    }
+});
 
 // 5. Задача. Таблица криптовалют. 
 const data = [
@@ -37,3 +46,22 @@ const data = [
     { "name": "Monero", "ticker": "XMR", "value": "79.523", "change": "3.45%" },
     { "name": "TRON", "ticker": "TRX", "value": "0.020881", "change": "5.21%" }
 ];
+
+const body = document.body;
+const table = document.createElement('table');
+const th = document.createElement('thead');
+const tb = document.createElement('tbody');
+th.innerHTML = '<tr><th>Name</th></tr>';
+table.append(th);
+table.append(tb);
+data.forEach((element) => {
+    const tr = document.createElement('tr');
+    for (key in element) {
+        let td = document.createElement('td');
+        td.innerHTML = element[key];
+        tr.append(td);
+        tb.append(tr);
+    }
+
+});
+body.append(table);
