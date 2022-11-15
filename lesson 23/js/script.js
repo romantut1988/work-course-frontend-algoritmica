@@ -4,7 +4,7 @@
 const user = {
   name: 'Eric Cartman',
   gender: 'male',
-  birthday:'07.08.2002'
+  birthday: '07.08.2002'
 }
 console.log(user.birthday);
 
@@ -25,14 +25,20 @@ console.log(user);
 const user = {
   firstName: 'John',
   lastName: 'Smith',
-  birthDate: '1960-05-14',
+  age: 37,
   department: 'management',
-  isActive: true,
-}
 
-user.age = 32;
-delete user.birthDate;
-console.log(user);
+  setAge(n) {
+    this.age += n;
+    return this.age;
+  },
+
+  getYearsBeforeRetirement() {
+    return 60 - this.age;
+  }
+}
+console.log(user.setAge(3));
+console.log(user.getYearsBeforeRetirement());
 
 // 5. Задача 1. Копия товара.
 const stockItem = {
@@ -40,7 +46,7 @@ const stockItem = {
   place: '234',
   weight: '22кг'
 }
-const storeItem = {...stockItem};
+const storeItem = { ...stockItem };
 delete storeItem.place;
 storeItem.price = '2000р';
 console.log(storeItem);
@@ -82,62 +88,62 @@ console.log(storeItem);
 let calc = {
   storage: 0,
   addition() {
-      let num1 = prompt('Введите число');
-      let num2 = prompt('Введите число');
-      console.log(+num1+Number(num2));
-      calc.storage = Number(num1)+Number(num2);
+    let num1 = prompt('Введите число');
+    let num2 = prompt('Введите число');
+    console.log(+num1 + Number(num2));
+    calc.storage = Number(num1) + Number(num2);
 
   },
   substraction() {
-      let num1 = prompt('Введите число');
-      let num2 = prompt('Введите число');
-      console.log(+num1-Number(num2));
-      calc.storage = Number(num1)-Number(num2);
+    let num1 = prompt('Введите число');
+    let num2 = prompt('Введите число');
+    console.log(+num1 - Number(num2));
+    calc.storage = Number(num1) - Number(num2);
   },
   division() {
-      let num1 = prompt('Введите число');
-      let num2 = prompt('Введите число');
-      console.log(+num1/Number(num2));
-      calc.storage = Number(num1)/Number(num2);
+    let num1 = prompt('Введите число');
+    let num2 = prompt('Введите число');
+    console.log(+num1 / Number(num2));
+    calc.storage = Number(num1) / Number(num2);
   },
   multiplication() {
-      let num1 = prompt('Введите число');
-      let num2 = prompt('Введите число');
-      console.log(+num1*Number(num2));
-      calc.storage = Number(num1)*Number(num2);
+    let num1 = prompt('Введите число');
+    let num2 = prompt('Введите число');
+    console.log(+num1 * Number(num2));
+    calc.storage = Number(num1) * Number(num2);
   },
   additionStorage() {
-      let num1 = prompt('Введите число');
-      console.log(+num1+calc.storage);
-      calc.storage = Number(num1)+calc.storage;
+    let num1 = prompt('Введите число');
+    console.log(+num1 + calc.storage);
+    calc.storage = Number(num1) + calc.storage;
   },
   substractionStorage() {
-      let num1 = prompt('Введите число');
-      console.log(+num1-calc.storage);
-      calc.storage = Number(num1)-calc.storage;
+    let num1 = prompt('Введите число');
+    console.log(+num1 - calc.storage);
+    calc.storage = Number(num1) - calc.storage;
   },
   divisionStorage() {
-      let num1 = prompt('Введите число');
-      console.log(+num1/calc.storage);
-      calc.storage = Number(num1)/calc.storage;
+    let num1 = prompt('Введите число');
+    console.log(+num1 / calc.storage);
+    calc.storage = Number(num1) / calc.storage;
   },
   multiplicationStorage() {
-      let num1 = prompt('Введите число');
-      console.log(+num1*calc.storage);
-      calc.storage = Number(num1)*calc.storage;
+    let num1 = prompt('Введите число');
+    console.log(+num1 * calc.storage);
+    calc.storage = Number(num1) * calc.storage;
   },
 }
 calc.addition();
 calc.divisionStorage()
-  
+
 // 7. Задача. Клиент с кредитной картой.
 let client = {
   fullName: 'В. К. Миськевич',
   creditLimit: 10000,
-  balance: 100, 
+  balance: 100,
   precentOfMinPayment: 10,
   getBalance() {
-      console.log(`Ваш баланс: ${client.balance}`)
+    console.log(`Ваш баланс: ${client.balance}`)
   }
 }
 client.getBalance()
