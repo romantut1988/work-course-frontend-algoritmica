@@ -83,14 +83,15 @@ if (user_string.indexOf(9) > -1) {
 }
 
 // 7. Содержит ли строка цифры.
-function circumference(result) {
-    return parseFloat(result);
-  }
-  
-  console.log(circumference(4.567));
-  
-  console.log(circumference('4567abc3543defgh'));
-  
-  console.log(circumference('abcdefgh113422'));
-console.log('The cycle is over');
+let s = prompt('Введите строку:');
+let b = false;
+
+for (let i = 0; i < s.length; i++) {
+    if (s[i] > '0' && s[i] < '9') {
+        b = true;
+        break;
+    }
+}
+
+console.log(b);
 // 8. Вывести простые числа.
