@@ -97,7 +97,6 @@ button:active {
 #total {
   font-size: 30px;
   margin-top: 67px;
-  margin-left: 60px;
 }
 
 #total sup {
@@ -106,6 +105,14 @@ button:active {
   line-height: 29px;
   color: #ffffff;
   margin-right: 30px;
+}
+
+#total sub {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-right: 55px;
 }
 
 #total small {
@@ -129,3 +136,5 @@ button:active {
   color: #ffffff;
   margin-right: 30px;
 }
+
+

@@ -24,32 +24,35 @@
                     <option value="0.1">10&#37; &#45; Хорошее</option>
                     <option value="0.05">5&#37; &#45; Нормально</option>
                 </select>
+
+                <p>Количество человек</p>
+                <input id="peopleamt" type="number" placeholder="Количество">
+                <div class="form__btn">
+                    <button type="button" id="calculate">Посчитать</button>
+                    <button type="button" id="calculate" class='delete'>Сбросить</button>
+                </div>
+
+                <!--calculator end-->
+                <div id="total">
+                    <div class="total__tips">
+                        <sup>Чаевые:</sup><span id="tip">0.00</span>
+                        <small id="each">(с каждого)</small>
+                    </div>
+                    <div class="total__tips">
+                        <sub>Всего:</sub><span id="tip">0.00</span>
+                        <small id="each">(с каждого)</small>
+                    </div>
+                </div>
+                <!--total end-->
             </form>
-            <p>Количество человек</p>
-            <input id="peopleamt" type="number" placeholder="Количество">
-            <div class="form__btn">
-                <button type="button" id="calculate">Посчитать</button>
-                <button type="button" id="calculate" class='delete'>Сбросить</button>
-            </div>
         </div>
 
-        <!--calculator end-->
-        <div id="total">
-            <div class="total__tips">
-                <sup>Чаевые:</sup><span id="tip">0.00</span>
-                <small id="each">(с каждого)</small>
-            </div>
-            <div class="total__tips">
-                <sup>Всего:</sup><span id="tip">0.00</span>
-                <small id="each">(с каждого)</small>
-            </div>
-        </div>
-        <!--total end-->
+
 
     </div>
     <!--container end-->
 
-    <script src="./js/script.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 
